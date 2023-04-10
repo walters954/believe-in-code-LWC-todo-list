@@ -1,0 +1,9 @@
+<template>
+    <lightning-card  title="Todo List">
+        <div class="slds-p-horizontal_small">
+            <lightning-input type="text" label="Enter an item you need to do." value={todoValue} onchange={handleChange}></lightning-input>
+            <lightning-button variant="brand" label="Add" title="Add" onclick={handleClick} class="slds-m-left_x-small slds-p-top_small slds-align_absolute-center"></lightning-button>
+        </div>
+        <p slot="footer">{todoValue}</p>
+    </lightning-card>
+</template>
