@@ -3,9 +3,21 @@ import { LightningElement } from 'lwc';
 export default class TodoList extends LightningElement {
 
     todoValue = 'test';
+    todoList = [ ];
+
+    get hasTodoListItems(){
+        return this.todoList.length > 0;
+    }
 
     handleClick() {
         console.log('We have clicked the add button');
+        let newTodo = {
+            id : this.todoList.length + 1,
+            value : this.todoValue
+        }
+        this.todoList = [...this.todoList, newTodo];
+        console.log(this.todoList);
+        this.todoValue = '';
     }
 
     handleChange(event) {
