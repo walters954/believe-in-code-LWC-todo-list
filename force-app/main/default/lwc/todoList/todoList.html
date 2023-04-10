@@ -17,7 +17,7 @@
             
             <ul>
                 <template for:each={todoList} for:item="todo">
-                    <li key={todo.id}>{todo.value}</li>
+                    <c-todo-list-item key={todo.id} todo-value={todo.value}></c-todo-list-item>
                 </template>
             </ul>
             
