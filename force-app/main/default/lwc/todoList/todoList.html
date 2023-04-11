@@ -1,5 +1,6 @@
 <template>
     <lightning-card  title="Todo List">
+        <lightning-button label="Clear List" onclick={handleClear} slot="actions"></lightning-button>
         <div class="slds-p-horizontal_small">
             <lightning-layout>
                 <lightning-layout-item padding="around-small" size="9">
@@ -17,7 +18,13 @@
             
             <ul>
                 <template for:each={todoList} for:item="todo">
-                    <c-todo-list-item key={todo.id} todo-value={todo.value}></c-todo-list-item>
+                    <c-todo-list-item 
+                    key={todo.id} 
+                    todo-value={todo.value}
+                    ondelete={deleteHandler}
+                    todo-id={todo.id}
+                    class="slds-p-around-small"
+                    ></c-todo-list-item>
                 </template>
             </ul>
             
