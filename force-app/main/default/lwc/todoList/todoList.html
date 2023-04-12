@@ -15,7 +15,6 @@
             <template if:true={hasTodoListItems}>
                 <p class="slds-align_absolute-center slds-text-heading_large">You can do anything as long as it's in a list</p>
             </template>
-            
             <ul>
                 <template for:each={todoList} for:item="todo">
                     <c-todo-list-item 
@@ -27,7 +26,6 @@
                     ></c-todo-list-item>
                 </template>
             </ul>
-            
         </div>
     </lightning-card>
 </template>
