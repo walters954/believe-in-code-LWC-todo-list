@@ -1,14 +1,38 @@
-# Salesforce DX Project: Next Steps
+[LWC Todo Project](https://courses.salesforcementor.com/p/lwc-project-todo-list)
+================
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This repository contains the source code for the LWC Todo Project, a hands-on Lightning Web Components tutorial designed to help aspiring Salesforce developers solidify their LWC skills through practical application. 
 
-## How Do You Plan to Deploy Your Changes?
+Tutorial Overview
+-----------------
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+The tutorial is divided into several sections, each focusing on a specific aspect of LWC development. By following this tutorial, you will learn how to:
 
-## Configure Your Salesforce DX Project
+-   Set up a Salesforce development environment
+-   Create a custom Lightning Web Component
+-   Implement data binding, event handling, and communication between components
+-   Deploy your LWC app to a Salesforce org
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Why Build a Todo List App
+-------------------------
+
+Building a Todo List App in LWC offers several key benefits for learners:
+
+-   Gain hands-on experience with essential LWC concepts
+-   Develop problem-solving skills through real-world scenarios
+-   Understand the structure and organization of LWC applications
+-   Build a practical, functional app that can be used as a portfolio piece
+
+By working through this project, you will gain a deeper understanding of LWC and become more confident in your Salesforce development skills.
+
+Get Started
+-----------
+
+Jumpstart your LWC journey by enrolling in our comprehensive LWC Todo Project tutorial on the Salesforce Mentor platform. Click the link below to access the course:
+
+[LWC Project: Todo List](https://courses.salesforcementor.com/p/lwc-project-todo-list)
+
+Happy learning, and we look forward to seeing your progress in the world of Salesforce development!
 
 ## Read All About It
 
